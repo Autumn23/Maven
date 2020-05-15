@@ -8,6 +8,13 @@ public class EvenSum {
         int sum = 0,j = 0;
         String evennums = "";
         //Insert your code here
+        for (int i = 1; i <= num; i++) {
+        	   if (i % 2 == 0) {
+        	       evennums = evennums + i + " ";
+        	       sum = sum + i;
+        	   }
+        	}
+
 
 
         System.out.println(evennums);

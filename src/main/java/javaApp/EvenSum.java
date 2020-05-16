@@ -10,7 +10,7 @@ public class EvenSum {
         //Insert your code here
         for (int i = 1; i <= num; i++) {
         	   if (i % 2 == 0) {
-        	       evennums = evennums + i + " ";
+        	       evennums = evennums + i + ",";
         	       sum = sum + i;
         	   }
         	}

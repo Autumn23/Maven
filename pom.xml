@@ -6,6 +6,7 @@
     <artifactId>EvenSum</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <!--insert your plugins here-->
+    <build>
     <plugins>
      <plugin>
        <artifactId>maven-compiler-plugin</artifactId>
@@ -15,7 +16,16 @@
                 <target>1.8</target>
             </configuration>
          </plugin>
+        plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>javaApp.Evensum</mainClass>
+                </configuration>
+            </plugin>
+        
   </plugins>
-    
+    </build>
     
 </project>
